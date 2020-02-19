@@ -29,6 +29,32 @@ if we do :
 
 #git commit -am " make changes index and commit"
 
+------------------------------------------------
+#git add example/ //aplly all subfolders
+  
+
+Best pratice 
+
+1- if we do for example 2 changes 
+# git commit - m "first change"
+# git commit -am "second change and apply all"
+ 
+----------------------------------------
+Ignore files GitHub
+
+project/.gitignore
+-very basic regular expressions 
+*? [aeiou] [0-9]  
+-negative expressions with 
+*.php
+!index.php
+
+
+sources:
+https://help.github.com/articles/ignoring-files
+https://github.com/github/gitignore
+
+
 
 
 
