@@ -16,3 +16,18 @@ $ git rm filedelete1.txt
 
 # rename files
 git mv firstfiletxt secondfile.txt
+
+------------------------------------------------
+Lets imagine we have folder with website files
+ 
+And we need make changes about contact number, so 
+we go the file and we changed numbers
+
+if we do :
+
+#git diff contact.html // we can check the changes that were made
+
+
+
+
+
