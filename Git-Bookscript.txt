@@ -1,0 +1,42 @@
+---------------------
+GIt BookScript 
+---------------------
+---------------------
+$ which git
+/mingw64/bin/gits.1
+
+$ git --version
+git version 2.25.0.windows.1
+----------------------
+#config System 
+git config --system
+
+#User 
+git config --global
+
+#project 
+git config
+------------------------
+#start
+
+git config --global user.name "name"
+git config --global user.email "someone@domain.com"
+
+#git config --list //check the configurations
+
+# Config editor in GIt
+git config --global core.editor"notepad.exe"
+
+# use colours
+git config --global color.ui true 
+
+#git help //help command
+#git help command 
+
+// create Folder project and init repository
+
+# git init 
+
+
+
+
