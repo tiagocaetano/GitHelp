@@ -27,6 +27,7 @@ if we do :
 
 #git diff contact.html // we can check the changes that were made
 
+#git commit -am " make changes index and commit"
 
 
 
