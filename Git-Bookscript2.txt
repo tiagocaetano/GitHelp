@@ -76,7 +76,31 @@ so we create new branch
 // at this point, the master is new feature
 
 
+$ git log --oneline
 
+5855cb2 (HEAD -> master) Branch Introduction
+2aeb847 (origin/master) Merge branch 'master' of https://github.com/tiagocaetano/GitHelp
+5cef852 how to ignore files Github
+92c2780 updated
+dec8df7 updat
+09a5d62  how to check changes in the file
+1711dbd test file removed
+c35ee31 Reorganise files
+85018bf removed 3 file
+f53fe26 to delete
+27e60f5 add seconf file to project
+3337633 add more commans how to use Git
+c9ea861 add more commans how to use Git
+77ab1ba Initial commit
+
+
+// check who is the master
+$ git checkout master
+
+Already on 'master'
+M       Git-Bookscript2.txt
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
 
 
 
