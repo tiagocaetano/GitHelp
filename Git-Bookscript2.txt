@@ -9,3 +9,10 @@ Untracked files:
 #git add . // add all files
 
 #git diff //compare versions
+
+#delete files 
+$ git rm filedelete1.txt
+
+
+# rename files
+git mv firstfiletxt secondfile.txt
