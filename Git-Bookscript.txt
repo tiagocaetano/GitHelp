@@ -1,13 +1,17 @@
----------------------
-GIt BookScript 
----------------------
----------------------
+--------------------------------------------
+
+GIt BookScript -Notes
+--------------------------------------------
+--------------------------------------------
+
+
 $ which git
 /mingw64/bin/gits.1
 
 $ git --version
 git version 2.25.0.windows.1
-----------------------
+--------------------------------------------
+
 #config System 
 git config --system
 
@@ -16,7 +20,8 @@ git config --global
 
 #project 
 git config
-------------------------
+--------------------------------------------
+
 #start
 
 git config --global user.name "name"
@@ -44,7 +49,7 @@ git config --global color.ui true
 # Life cycle of git 
 1- make changes
 2- add the changes
-3- commit changes to repository with message
+3- commit changes to repository with messag----e
 
 --------------------------------------------
 #writting commit messages ( what was changed)
@@ -58,5 +63,29 @@ git config --global color.ui true
 #git log --until=2020-02-19
 #git log --author ="kevin"
 #git log --grep="init" //ger commit messages with the info commit
+
+---------------------------------------------------------------
+GIt Concepts and Architecture
+-----------------------------
+Two-Tree architecture- Workflow 
+(represent file structure)
+
+	Repository (->checkout) 
+	working (->commit)
+	
+Three-Three architecture (GITHUB Architecture)
+
+	repository
+	staging index->git commit file.txt
+	working->git add file.txt
+
+
+
+
+
+
+
+
+
 
 
