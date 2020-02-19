@@ -34,9 +34,29 @@ git config --global color.ui true
 #git help command 
 
 // create Folder project and init repository
-
 # git init 
 
+//how to add 
 
+#git add .
+#git commit -m "initial commit"
+
+# Life cycle of git 
+1- make changes
+2- add the changes
+3- commit changes to repository with message
+
+--------------------------------------------
+#writting commit messages ( what was changed)
+- short line summary 
+-optionally followed blanl line and more completed
+-Use present not past
+-[css,js]  "bug fix"  "#38405"
+---------------------------------------------
+# git log // got commit messages
+#git log -n 10 // specified the number of commit 
+#git log --until=2020-02-19
+#git log --author ="kevin"
+#git log --grep="init" //ger commit messages with the info commit
 
 
