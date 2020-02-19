@@ -54,6 +54,31 @@ sources:
 https://help.github.com/articles/ignoring-files
 https://github.com/github/gitignore
 
+----------------------------------------
+Branches 
+-Try new ideas
+-isolate features or sections of work
+-One working directory 
+
+
+we have project 
+
+master-> ce32 ->534de
+8c45 	revise_nvigation (will work?)
+
+so we create new branch 
+# git branch newfeature // we can check in the Header file
+# ls -la .git/refs/heads // check the brench in the project
+// the branch still apoints to the master-
+
+# git checout newfeature
+#Switched to branch 'newfeature'
+// at this point, the master is new feature
+
+
+
+
+
 
 
 
