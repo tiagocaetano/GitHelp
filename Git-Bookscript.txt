@@ -80,12 +80,63 @@ Three-Three architecture (GITHUB Architecture)
 	working->git add file.txt
 
 
+--------------------------------------------
+Edit file
 
+ make change v2 of that file 
+ git add v2
+ git commit v2 
 
+     v1 v2 v3 -  repository 
 
+ - Git make copies of versions at the end we have 
+ original, version 1 , version 2, version 3 etc etc 
 
+    v1 v2 v2 SNAPSHOT 
 
+- Git generates a checksum for each change set
+	-> checksum algorithm convert data into a simple number
+	->same data always equals same cheksum
+Data integrity is fundamental 
+	 ->Changing data would change checksum
+Git uses SHA-1 hash algorithm to create checksums
+	 ->40 character hexadecimal string 
+		(94859489faaaaadfasd )
+	
+	
+	5C123723		 3656C123723	EASD122435 (CHEKSUM)
+	 PARENT COMMIT
+	 AUTHOR	COMMIT
+	 MESSAGE COMMIT	
+	
+	snapshot A       snapshot B 	snapshot c  
+	
+--------------------------------------------
+HEAD
+- Pointer to tip of current branch repository
+- last state of repository what was last check out
+- points to parent of next commit 
 
+	5C123723(master) 3656C123723 EASD122435(parent/head) 	
 
+	
+	if you do ls -la
+	
+$ ls -la
+total 17
+drwxr-xr-x 1 tiago 197609   0 fev 19 11:44 ./
+drwxr-xr-x 1 tiago 197609   0 fev 19 10:27 ../
+-rw-r--r-- 1 tiago 197609  32 fev 19 11:44 COMMIT_EDITMSG
+-rw-r--r-- 1 tiago 197609 130 fev 19 10:53 config
+-rw-r--r-- 1 tiago 197609  73 fev 19 10:26 description
+-rw-r--r-- 1 tiago 197609  23 fev 19 10:26 HEAD
+drwxr-xr-x 1 tiago 197609   0 fev 19 10:26 hooks/
+-rw-r--r-- 1 tiago 197609 153 fev 19 11:44 index
+drwxr-xr-x 1 tiago 197609   0 fev 19 10:26 info/
+drwxr-xr-x 1 tiago 197609   0 fev 19 10:35 logs/
+drwxr-xr-x 1 tiago 197609   0 fev 19 11:44 objects/
+drwxr-xr-x 1 tiago 197609   0 fev 19 10:26 refs/
+
+tiago@DESKHACK MINGW64 ~/Desktop/GitHelp/.git (GIT_DIR!)
 
 
