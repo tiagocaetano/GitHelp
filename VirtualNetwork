@@ -1,0 +1,39 @@
+// Creatinng VirtualNetwork using Power Shell 
+
+/*
+*@parameters : ResourceGroup, Location, Name, address 
+*
+*/
+
+$Group= "Group1"
+$Location= "Uk South"
+$VirtualNetName="VirtualNet1"
+$AddressVirtualNet:"192.168.10.0/24"
+$Setup= New-AzVirtualNetwork -Name $VirtualNetName -ResourceGroupName $Group -Location $Location -AddressPrefix $AddressVirtualNet
+
+
+/*
+*Creating Subnets
+*@parameters: name, Addres
+*/
+
+// create @()array 
+
+$SubnetArray=@()
+$Subnet1Name="Subnet1"
+$Subnet2Name="Subnet2"
+$Address1="192.168.10.0/25"
+$Address2="192.168.100.0/26"
+$SubnetArray+=NewAzVirtualNetworkSubnetConfig -Name $Subnet1Name -AddressPrefix $Address1
+$SubnetArray+=NewAzVirtualNetworkSubnetConfig -Name $Subnet2Name -AddressPrefix $Address2
+
+
+//Note: To remove Subnet or VirtualNet we have to make sure we dont have any devices connected 
+
+$GetMyVirtualNet= Get-AzVirtualNetwork -Name $VirtualNetName -ResourceGroupName $Group
+
+
+
+
+
+
